@@ -1,2 +1,9 @@
-# bananaPhone
-A Template Erlang Repository
+bananaPhone
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ make compile
