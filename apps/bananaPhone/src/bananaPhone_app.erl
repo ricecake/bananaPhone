@@ -36,6 +36,6 @@ stop(_State) ->
 
 -include_lib("eunit/include/eunit.hrl").
 
-silly_test_() -> ok=ok.
+silly_test_() -> ?_test(?assert(1 + 1 =:= 2)).
 
 -endif.
